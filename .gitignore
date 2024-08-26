@@ -1,6 +1,5 @@
 # CSV and excel
-*.csv
-*.xlsx
+transcripts/
 
 
 # Byte-compiled / optimized / DLL files
