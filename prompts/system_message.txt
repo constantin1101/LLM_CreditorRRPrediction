@@ -43,6 +43,7 @@ Altman Z-Score (1-10): A composite score based on several financial ratios to pr
 Provide scores only if you are confident in your analysis. If the transcript does not provide enough information to confidently assign a score, use the value “N/A” for that metric.
 Ensure all scores are consistent with the context of the earnings call. Double-check that the assigned scores align with the language, tone, and data discussed in the transcript.
 Do not infer or assume information that is not clearly presented in the transcript. Only base your scores on explicit mentions and clear implications.
+
 Final Output:
 Provide all scores in the specified order (from top to buttom), separated by semicolons (;). If a score cannot be confidently determined, replace it with “N/A”. Ensure consistency and accuracy in the format.
-Example: 0.30; 0.70; 0.15; 0.05; 0.90; 0.65; 0.55; 0.85; 0.45; 0.10; 0.60; 0.35; 0.50; 0.80; 0.60; 0.75; 0.85; 4; 1; 1; 3; 8
+Example Output: 0.30; 0.70; 0.15; 0.05; 0.90; 0.65; 0.55; 0.85; 0.45; 0.10; 0.60; 0.35; 0.50; 0.80; 0.60; 0.75; 0.85; 4; 1; 1; 3; 8
