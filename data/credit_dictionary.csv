@@ -1,0 +1,256 @@
+﻿word,type
+severity,default
+rating,default
+detriment,default
+disruption,default
+decline,default
+loan,default
+shock,default
+crash,default
+resolution,default
+hedges,default
+return,default
+preliminary,default
+outlook,default
+capacity,default
+regulation,default
+offering,default
+premium,default
+occupancy,default
+resource,default
+cycle,default
+discretion,default
+expansion,default
+commitments,default
+requirement,default
+maturity,default
+wholesale,default
+compensation,default
+variety,default
+intention,default
+difficulty,default
+drop,default
+constraint,default
+resilience,default
+liquidity,default
+limit,default
+decade,default
+burden,default
+competition,default
+expense,default
+maintenance,default
+profitability,default
+sensitivity,default
+yield,default
+infrastructure,default
+charge,default
+prospects,default
+obligations,default
+venture,default
+operation,default
+force,default
+segment,default
+overview,default
+capital,default
+change,default
+persistency,default
+approach,default
+progress,default
+tax,default
+downturn,default
+deterioration,default
+downgrade,default
+vulnerability,default
+liability,default
+fall,default
+challenge,default
+recovery,default
+exposure,default
+revenue,default
+strain,default
+insurance,default
+intensity,default
+runs,default
+strength,default
+ratio,default
+earning,default
+demand,default
+trend,default
+consolidation,default
+environment,default
+agreement,default
+legacy,default
+review,default
+proceed,default
+incentives,default
+focus,default
+availability,default
+evaluation,default
+shortage,default
+uncertainty,default
+credit,default
+inability,default
+doubt,default
+problem,default
+repayment,default
+cash,default
+concerns,default
+discount,default
+flexibility,default
+grade,default
+quality,default
+expenditures,default
+investment,default
+stop,default
+savings,default
+growth,default
+value,default
+rival,default
+implementation,default
+replacement,default
+compliance,default
+repurchase,default
+contract,default
+opportunities,default
+swing,default
+proposition,default
+transition,default
+distress,default
+pandemic,default
+debt,default
+safety,default
+impairment,default
+slowdown,default
+restructuring,default
+deployment,default
+pressure,default
+break,default
+inflation,default
+reserves,default
+headwinds,default
+negotiation,default
+reform,default
+litigation,default
+spending,default
+utilization,default
+potential,default
+consideration,default
+organization,default
+opportunity,default
+application,default
+bank,default
+margin,default
+surprise,default
+system,default
+initiative,default
+retention,default
+deficit,default
+fluctuation,default
+bond,default
+recession,default
+reliability,default
+borrowing,default
+cost,default
+refinancing,default
+compression,default
+cut,default
+mitigation,default
+model,default
+utility,default
+valuation,default
+conditions,default
+completion,default
+improvement,default
+concentration,default
+renewal,default
+aggression,default
+outbreak,default
+storage,default
+metrics,default
+inventory,default
+solutions,default
+synergies,default
+dividend,default
+comment,default
+rate,default
+risk,default
+leverage,default
+volatility,default
+barrel,default
+depreciation,default
+delays,default
+loss,default
+reconciliation,default
+reduction,default
+productivity,default
+continuation,default
+pipeline,default
+efficiency,default
+landscape,default
+push,default
+material,default
+authorization,default
+transaction,default
+expectation,default
+participation,default
+retail,default
+settlement,default
+schedule,default
+balance,default
+capability,default
+expertise,default
+status,default
+excuse,default
+credit,credit
+credit line,credit
+bank line,credit
+bond,credit
+debt,credit
+leverage,credit
+rate,credit
+snp,credit
+moodys,credit
+coverage ratio,credit
+leverage ratio,credit
+fitch,credit
+share repurchase,credit
+capital structure,credit
+invest grade,credit
+high yield,credit
+ liquidity,credit
+line credit,credit
+shareholder,credit
+leaseback,credit
+creditworthiness,credit
+repayment,credit
+revolver,credit
+rating agency,credit
+covenants,credit
+cash availability,credit
+cash balance,credit
+fully drawn,credit
+balance sheet,credit
+interest expense,credit
+credit rating,credit
+financial profile,credit
+financial flexibility,credit
+returning cash,credit
+dividend,credit
+delever,credit
+interest coverage,credit
+financing cost,credit
+refinance,credit
+refinancing,credit
+loan,credit
+unsecured,credit
+secured,credit
+convertible bond,credit
+interest payment,credit
+basis point,credit
+cash flow,credit
+exchange rate,excluded
+bond rate,excluded
+credit card,excluded
+creditworthy customer,excluded
+liquid storage,excluded
+shareholder meeting,excluded
