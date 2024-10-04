@@ -26,10 +26,6 @@ Evaluate Alignment of Analyst and Management Focus:
 Determine whether the topics raised by analysts are aligned with the issues discussed by management in their prepared remarks.
 A higher score indicates strong alignment, suggesting transparency and thoroughness in management's disclosures.
 A lower score suggests that analysts are bringing up concerns not addressed by management, which may affect recovery rates.
-Assess Overall Sentiment of the Q&A Session:
-[Score5] Overall Sentiment of Q&A Session (0.00 - 1.00):
-Evaluate the overall sentiment during the Q&A session, considering both the tone of analyst questions and management responses.
-A higher score indicates a more positive and confident interaction, while a lower score indicates negativity or tension, which may influence recovery prospects.
 
 Consistency and Confidence Guidelines:
 Accuracy: Provide scores only if you are confident in your analysis. If the transcript does not provide enough information to confidently assign a score, use the value "0" for that metric.
@@ -41,7 +37,7 @@ Final Output Format:
 Provide all scores in the specified order, separated by semicolons (;).
 Do not include any additional text, explanations, or formatting.
 Output Format (for illustration purposes only):
-[Score1]; [Score2]; [Score3]; [Score4]; [Score5]
+[Score1]; [Score2]; [Score3]; [Score4]
 
 Instructions:
 Use this system prompt as a guideline for analyzing the Analyst Questions and Management Responses section of the earnings call transcript to extract the required features that will help predict the recovery rate of bonds. Ensure that your analysis is thorough, objective, and based solely on the information presented in the transcript.

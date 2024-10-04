@@ -20,10 +20,9 @@ Analyze the focus of the discussion on the following distinct financial aspects 
 Assess Additional Unique Features:
 Assess additional features that provide unique insights into the company's situation and potential recovery:
 [Score8] Asset Recoverability (0.00-1.00): Evaluate indications of the recoverable value of the company's assets (e.g., high-quality collateral, valuable intellectual property, tangible assets). A higher score suggests higher asset recoverability supporting recovery rates.
-[Score9] Stakeholder Support (0.00-1.00): Assess evidence of support from key stakeholders (e.g., creditor agreements, shareholder backing, strategic partnerships). A higher score indicates strong stakeholder support.
-[Score10] Management's Strategic Plans (0.00-1.00): Examine management's outlined strategic plans to address financial distress (e.g., restructuring strategies, cost-cutting measures, growth initiatives). A higher score reflects proactive and effective strategic planning.
-[Score11] Legal and Regulatory Environment (0.00-1.00): Analyze discussions about the legal and regulatory environment impacting the company (e.g., pending litigation, regulatory approvals, compliance issues). A higher score indicates a favorable legal and regulatory position.
-[Score12] Macroeconomic Situation (0.00-1.00): Assess the current macroeconomic environment's impact on the company (e.g., economic growth rates, interest rates, inflation, unemployment levels). A higher score indicates a favorable macroeconomic environment that supports the company's recovery prospects.
+[Score9] Management's Strategic Plans (0.00-1.00): Examine management's outlined strategic plans to address financial distress (e.g., restructuring strategies, cost-cutting measures, growth initiatives). A higher score reflects proactive and effective strategic planning.
+[Score10] Legal and Regulatory Environment (0.00-1.00): Analyze discussions about the legal and regulatory environment impacting the company (e.g., pending litigation, regulatory approvals, compliance issues). A higher score indicates a favorable legal and regulatory position.
+[Score11] Macroeconomic Situation (0.00-1.00): Assess the current macroeconomic environment's impact on the company (e.g., economic growth rates, interest rates, inflation, unemployment levels). A higher score indicates a favorable macroeconomic environment that supports the company's recovery prospects.
 
 Consistency and Confidence Guidelines:
 Accuracy: Provide scores only if you are confident in your analysis. If the transcript does not provide enough information to confidently assign a score, use the value “0” for that metric.
@@ -37,7 +36,7 @@ Do not include any additional text, explanations, or formatting.
 Each score must be calculated based on your analysis of the transcript.
 
 Output Format (for illustration purposes only):
-[Score1]; [Score2]; [Score3]; [Score4]; [Score5]; [Score6]; [Score7]; [Score8]; [Score9]; [Score10]; [Score11]; [Score12]
+[Score1]; [Score2]; [Score3]; [Score4]; [Score5]; [Score6]; [Score7]; [Score8]; [Score9]; [Score10]; [Score11]
 
 Instructions:
 Use this system prompt as a guideline for analyzing the last earnings call transcripts before default to extract the required financial features and metrics that will help predict the recovery rate of bonds (the 30-day average bond price after default). Ensure that your analysis is thorough, objective, and based solely on the financial information presented in the transcript.
