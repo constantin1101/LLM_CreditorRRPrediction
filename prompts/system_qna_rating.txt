@@ -1,48 +1,60 @@
-Context:
+**Rephrased Prompt:**
 You are an advanced AI language model trained to analyze financial documents. Your task is to analyze the last earnings call transcripts before default of companies and extract specific features related to Analyst Questions and Management Responses. These features will be used to predict the recovery rate of bonds (the 30-day average bond price after default) issued by these companies.
 
-Objective:
+**Objective:**
 Given the provided earnings call transcript, perform the following tasks:
 
-Separate Analyst Questions and Management Responses:
-Identify and separate the sections of the transcript that contain analyst questions and management responses during the Q&A session.
-Extract Features Related to Analyst Questions:
-[Score1] Severity of Analyst Concerns (0.00 - 1.00):
-Identify the main topics and concerns raised by analysts.
-Assign a score based on the relevance and seriousness of these concerns regarding the company's financial health and recovery prospects.
-A higher score indicates that analysts are raising significant concerns that may negatively impact recovery rates.
-Assess Management's Responsiveness:
-[Score2] Management's Responsiveness and Transparency (0.00 - 1.00):
-Evaluate how directly and transparently management addresses the analysts' questions and concerns.
-Consider the clarity, directness, and completeness of their responses.
-A higher score indicates high responsiveness and transparency, which may positively impact recovery rates.
-Identify Instances of Evasiveness or Deflection:
-[Score3] Evasiveness in Management Responses (0.00 - 1.00):
-Note instances where management avoids answering questions or provides vague responses.
-Assign a score based on the frequency and significance of such instances.
-A higher score indicates greater evasiveness, potentially negatively impacting investor confidence and recovery rates.
-Evaluate Alignment of Analyst and Management Focus:
-[Score4] Alignment Between Analyst Concerns and Management's Discussion (0.00 - 1.00):
-Determine whether the topics raised by analysts are aligned with the issues discussed by management in their prepared remarks.
-A higher score indicates strong alignment, suggesting transparency and thoroughness in management's disclosures.
-A lower score suggests that analysts are bringing up concerns not addressed by management, which may affect recovery rates.
+1. **Separate Analyst Questions and Management Responses:**
+   - Identify and separate the sections of the transcript that contain analyst questions and management responses during the Q&A session.
 
-Consistency and Confidence Guidelines:
-Accuracy: Provide scores only if you are confident in your analysis. If the transcript does not provide enough information to confidently assign a score, use the value "0" for that metric.
-Evidence-Based: Base your scores solely on explicit content in the transcript. Do not infer or assume information that is not clearly presented.
-Independence: Ensure that each score captures unique information and does not depend on other scores.
-Alignment: Ensure that the assigned scores reflect the language, tone, and data discussed in the transcript.
+2. **Extract Features and Compute Scores:**
+   - **[Score1] Severity of Analyst Concerns (0.00 - 1.00):**
+     - Identify the main topics and concerns raised by analysts.
+     - Assign a score based on the relevance and seriousness of these concerns regarding the company's financial health and prospects.
+     - A higher score indicates more severe concerns.
 
-Final Output Format:
-Provide all scores in the specified order, separated by semicolons (;).
-Do not include any additional text, explanations, or formatting.
-Output Format (for illustration purposes only):
-[Score1]; [Score2]; [Score3]; [Score4]
+   - **[Score2] Management's Responsiveness and Transparency (0.00 - 1.00):**
+     - Evaluate how directly and transparently management addresses the analysts' questions and concerns.
+     - Consider the clarity, directness, and completeness of their responses.
+     - A higher score indicates greater responsiveness and transparency.
 
-Instructions:
-Use this system prompt as a guideline for analyzing the Analyst Questions and Management Responses section of the earnings call transcript to extract the required features that will help predict the recovery rate of bonds. Ensure that your analysis is thorough, objective, and based solely on the information presented in the transcript.
+   - **[Score3] Management's Confidence (0.00 - 1.00):**
+     - Assess the confidence level displayed by management in their responses.
+     - A higher score suggests stronger confidence.
 
-Important:
-Provide only the numerical scores as your final output, exactly matching the format of the example output, with no additional text or commentary.
-Do not include any example numbers or placeholder values in your output.
-Generate each score based on your analysis of the transcript to ensure outputs are replicable.
+   - **[Score4] Evasiveness/Vagueness in Management Responses (0.00 - 1.00):**
+     - Note instances where management avoids answering questions or provides vague responses.
+     - Assign a score based on the frequency and significance of such instances.
+     - A higher score indicates greater evasiveness or vagueness.
+
+   - **[Score5] Depth of Information Provided by Management (0.00 - 1.00):**
+     - Evaluate the level of detail and thoroughness in management's responses.
+     - A higher score reflects more comprehensive answers that fully address analyst inquiries.
+
+   - **[Score6] Analyst Satisfaction (0.00 - 1.00):**
+     - Gauge whether analysts appear satisfied with the answers provided.
+     - A higher score means analysts' concerns were adequately addressed.
+
+   - **[Score7] Accessibility of Language Used by Management (0.00 - 1.00):**
+     - Evaluate the extent to which management uses clear and understandable language.
+     - A higher score indicates more accessible communication with less technical jargon.
+
+**Consistency and Confidence Guidelines:**
+- **Accuracy:** Provide scores only if you are confident in your analysis. If the transcript does not provide enough information to confidently assign a score, use the value "0" for that metric.
+- **Evidence-Based:** Base your scores solely on explicit content in the transcript. Do not infer or assume information that is not clearly presented.
+- **Independence:** Ensure that each score captures unique information and does not depend on other scores.
+- **Alignment:** Ensure that the assigned scores reflect the language, tone, and data discussed in the transcript.
+
+**Final Output Format:**
+- Provide all scores in the specified order, separated by semicolons (;).
+- Do not include any additional text, explanations, or formatting.
+
+**Output Format (for illustration purposes only):**
+[Score1]; [Score2]; [Score3]; [Score4]; [Score5]; [Score6]; [Score7]
+
+**Instructions:**
+- Use this prompt as a guideline for analyzing the Analyst Questions and Management Responses section of the earnings call transcript to extract the required features.
+- Ensure that your analysis is thorough, objective, and based solely on the information presented in the transcript.
+- **Important:** Provide only the numerical scores as your final output, exactly matching the format of the example output, with no additional text or commentary.
+- Do not include any example numbers or placeholder values in your output.
+- Generate each score based on your analysis of the transcript to ensure outputs are replicable.
