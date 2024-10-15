@@ -1,6 +1,7 @@
 # CSV and excel
 transcripts/
 goemotions/
+data/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
