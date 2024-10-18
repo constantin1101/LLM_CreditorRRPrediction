@@ -2,6 +2,7 @@
 transcripts/
 goemotions/
 data/
+dealer/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
