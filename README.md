@@ -61,20 +61,23 @@ By leveraging features such as sentiment, emotional cues, and structured content
 ├── goemotions/                         # Emotion scores
 ├── models/                             # Saved models
 ├── prompts/                            # Prompts to extract scores from earnings calls and summarize them
+├── CoT/                                # Prompts for Chain-of-Thought approach
 ├── transcripts/                        # Earnings calls transcripts with and without scores
 ├── results/                            # Saved model outputs and evaluation metrics
 ├── requirements.txt                    # Python dependencies
 ├── README.md                           # Project documentation
-├── aggregate_transcripts.ipynb         # Aggregate earnings call based on call ID
-├── anonymize_transcripts.ipynb         # Anonymize transcripts
+├── preprocessing/                      # Data preprocessing steps
+  ├── aggregate_transcripts.ipynb         # Aggregate earnings call based on call ID
+  ├── anonymize_transcripts.ipynb         # Anonymize transcripts
+  ├── extract_convert_calls.ipynb         # Processing: Extract transcripts from pdf files, save to csv
+  ├── find_sections.ipynb                 # Summarize transcripts via OpenAI
 ├── combined_analysis.ipynb             # Use all extracted scores for bond-level RR prediction
 ├── composite_metrics.ipynb             # Build and us composite scores for more interpretable results
 ├── dealer_anaylsis.ipynb               # Trade-level RR prediction
-├── extract_convert_calls.ipynb         # Processing: Extract transcripts from pdf files, save to csv
-├── find_sections.ipynb                 # Summarize transcripts via OpenAI
 ├── goemotions.ipynb                    # Compute emotion scores via GoEmotions LLM from Google
 ├── presentation_analysis.ipynb         # Extract scores from presentation via OpenAI
 ├── qna_analysis.ipynb                  # Extract scores from Q&A via OpenAI
+├── cot_analysis.ipynb                  # Chain-of-Thought as potential future research approach
 
 ---
 
