@@ -1,0 +1,49 @@
+\begin{table}[h!]
+\centering
+\caption{Regression Coefficients and Significance for Different Models}
+\label{tab:regression_results}
+\begin{tabular}{lcccc}
+\hline
+\textbf{Features} & \textbf{Groups} & \textbf{Composite} & \textbf{Most Insightful} & \textbf{With Emotions} \\ \hline
+Intercept & 43.79* & 47.95* & 66.70* & 56.15* \\
+CBOE DJIA Volatility Index               &  &  &  &  \\
+NASDAQ 100 Index return                  &  &  &  &  \\
+Manufacturers inventories to sales ratio &  &  &  &  \\
+30 year conventional mortgage rate       &  &  &  &  \\
+Communication Services                   &  &  &  &  \\
+Consumer Discretionary                   &  &  &  &  \\
+Senior secured                           &  &  &  &  \\
+Time to maturity                         &  &  &  &  \\
+Equity value                             &  &  &  &  \\
+CDS availability                         &  &  &  &  \\
+ActIndustryDistress1                     &  &  &  &  \\
+ActIndustryDistress2                     &  &  &  &  \\
+Offering amount                          &  &  &  &  \\
+Volume                                   &  &  &  &  \\
+Industrials                              &  &  &  &  \\
+Consumer Staples                         &  &  &  &  \\
+Financials                               &  &  &  &  \\
+Energy                                   &  &  &  &  \\
+Health Care                              &  &  &  &  \\
+Utilities                                &  &  &  &  \\
+Information Technology                   &  &  &  &  \\
+Real Estate                              &  &  &  &  \\
+Default barrier                          &  &  &  &  \\
+LTDIssuance2                             &  &  &  &  \\
+Intangibility                            &  &  &  &  \\
+Receivables1                             &  &  &  &  \\ \hline
+Missing_Transparency                     &  &  &  &  \\ 
+Openess                                  &  &  &  &  \\ 
+Finance                                  &  &  &  &  \\ 
+Operations                               &  &  &  &  \\ 
+General_Tone                             &  &  &  &  \\ 
+Mgmt_Emotions                            &  &  &  &  \\ 
+Analyst_Confirmation                     &  &  &  &  \\ 
+Analyst_Negative                         &  &  &  &  \\ 
+Analyst_Positive                         &  &  &  &  \\ \hline 
+MTS                                      &  &  &  &  \\
+CAMI                                     &  &  &  &  \\
+ASS                                      &  &  &  &  \\ \hline
+\multicolumn{5}{l}{\textbf{Note:} * denotes significance at $p<0.05$.}
+\end{tabular}
+\end{table}
