@@ -68,7 +68,6 @@ By leveraging features such as sentiment, emotional cues, and structured content
 ├── README.md                           # Project documentation
 ├── preprocessing/                      # Data preprocessing steps
   ├── aggregate_transcripts.ipynb         # Aggregate earnings call based on call ID
-  ├── anonymize_transcripts.ipynb         # Anonymize transcripts
   ├── extract_convert_calls.ipynb         # Processing: Extract transcripts from pdf files, save to csv
   ├── find_sections.ipynb                 # Summarize transcripts via OpenAI
 ├── combined_analysis.ipynb             # Use all extracted scores for bond-level RR prediction
